@@ -1,4 +1,49 @@
-#welcome{
-  font-size: 48px;
-  color: rgb(88, 196, 234);
+
+
+  .main-content {
+    
+    height: 85vh;
+    display: flex;
+  }
+  .side-bar {
+    color: black;
+    width: 15%;
+  }
+  .video-and-comment {
+   
+    width: 85%;
+  }
+  .search {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 60%;
+  }
+  .search-text-and-icon {
+    display: flex;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+#views {
+  display: flex;
+  justify-content: flex-end;
 }
+
+.like-dislike-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+  .about-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  
+ .youtube { 
+   width: auto; 
+   height: auto;
+ }
